@@ -2,6 +2,12 @@
 
 # Vite Vanilla Starter
 
+![Version](https://img.shields.io/github/package-json/v/ahmadkdev/vite-vanilla-starter)
+![License](https://img.shields.io/github/license/ahmadkdev/vite-vanilla-starter)
+![Vite Version](https://img.shields.io/github/package-json/dependency-version/ahmadkdev/vite-vanilla-starter/dev/vite)
+![Eslint Version](https://img.shields.io/github/package-json/dependency-version/ahmadkdev/vite-vanilla-starter/dev/eslint)
+![Prettier Version](https://img.shields.io/github/package-json/dependency-version/ahmadkdev/vite-vanilla-starter/dev/prettier)
+
 Inspired by [@Barata-Ribeiro](https://github.com/Barata-Ribeiro)'s [vite-vanilla-js-template](https://github.com/Barata-Ribeiro/vite-vanilla-js-template).
 
 A lightweight, modern Vite starter template with PostCSS, ESLint, and Prettier for vanilla JavaScript projects.
