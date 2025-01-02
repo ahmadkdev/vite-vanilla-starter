@@ -1,4 +1,4 @@
-![Vite Vanilla Starter](./banner.svg)
+![Vite Vanilla Starter](./public/banner.svg)
 
 # Vite Vanilla Starter
 
@@ -25,21 +25,25 @@ A lightweight, modern Vite starter template with PostCSS, ESLint, and Prettier f
 ## Cloning
 
 This project uses [pnpm](https://pnpm.io/) for faster and more efficient dependency management.
-   If you don’t have it installed, run:
-   ```bash
-   npm install -g pnpm
-   ```
+If you don’t have it installed, run:
+
+```bash
+npm install -g pnpm
+```
+
 Follow these steps to set up the project:
+
 1. **Clone the repository**
    ```bash
    git clone https://github.com/ahmadkdev/vite-vanilla-starter.git
    cd vite-vanilla-starter
    ```
 2. **Install dependencies**
-   
+
    ```bash
    pnpm install
    ```
+
    - Optional: For ESLint integration with Vite
      ```bash
      pnpm add -D vite-plugin-eslint2
@@ -56,7 +60,6 @@ After cloning the template, follow these steps to set it up for your own project
    git add .
    git commit -m "Initial commit"
    ```
-   
 2. **Update Project Details**
 
    - Edit `package.json` to include your project's name, version, and description.
@@ -69,7 +72,7 @@ After cloning the template, follow these steps to set it up for your own project
      rm public/vite.svg src/assets/icons/javascript.svg src/assets/fonts/ src/styles/*.css src/js/*.js
      ```
 
-   - Remove the placeholder code in index.html and src/main.js.  (Leave the css file import `import "./main.css";`)
+   - Remove the placeholder code in index.html and src/main.js. (Leave the css file import `import "./main.css";`)
 
 4. **Add Your Content**
 
@@ -117,10 +120,12 @@ vite-vanilla-starter/
 ## VS Code Setup
 
 1. Install required extensions:
+
    - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
    - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 2. Add the following to your `.vscode/settings.json`:
+
 ```json
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -137,6 +142,7 @@ vite-vanilla-starter/
 ### PostCSS
 
 `postcss.config.js`:
+
 ```javascript
 import postcssPresetEnv from 'postcss-preset-env';
 
@@ -152,12 +158,12 @@ export default {
     }),
   ],
 };
-
 ```
 
 ### ESLint
 
 `eslint.config.js`:
+
 ```javascript
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
 
@@ -172,6 +178,7 @@ export default [
 ### Prettier
 
 `.prettierrc`:
+
 ```json
 {
   "printWidth": 80,
@@ -189,27 +196,29 @@ export default [
 ### Vite
 
 Basic `vite.config.js`:
+
 ```javascript
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vite';
 
 export default defineConfig({
   // Your config here
-})
+});
 ```
 
 With optional ESLint plugin:
+
 ```javascript
-import { defineConfig } from 'vite'
-import eslint from 'vite-plugin-eslint2'
+import { defineConfig } from 'vite';
+import eslint from 'vite-plugin-eslint2';
 
 export default defineConfig({
   plugins: [
     eslint({
       include: ['src/**/*.js'],
-      cache: false
-    })
-  ]
-})
+      cache: false,
+    }),
+  ],
+});
 ```
 
 ## Contributing
