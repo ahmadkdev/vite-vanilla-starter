@@ -1,0 +1,7 @@
+/* Define your custom CSS variables here */
+
+:root {
+  --font-family: sans-serif;
+  --font-weight: 500;
+  --text-color: #213547;
+}

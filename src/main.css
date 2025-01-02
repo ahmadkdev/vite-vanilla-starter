@@ -1,0 +1,22 @@
+/* Import variables */
+@import './styles/variables.css';
+
+/* Import global styles */
+@import './styles/global.css';
+
+/*
+  Component Styles
+  I included them here for simplicity.
+*/
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.logo {
+  width: 100px;
+}

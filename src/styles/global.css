@@ -1,0 +1,25 @@
+/* Global styles */
+
+body {
+  margin: 0;
+
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  font-family: var(--font-family);
+
+  font-weight: var(--font-weight);
+
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  color: var(--text-color);
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+a {
+  text-decoration: inherit;
+}
