@@ -37,7 +37,7 @@
   "devDependencies": {
     "eslint": "^9.26.0",
     "eslint-config-prettier": "^10.1.2",
-    "eslint-plugin-prettier": "^5.2.6",
+    "eslint-plugin-prettier": "^5.4.0",
     "postcss-preset-env": "^10.1.6",
     "prettier": "^3.5.3",
     "vite": "^6.3.4"
